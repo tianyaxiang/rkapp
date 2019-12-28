@@ -19,11 +19,20 @@ body {
 .analysis {
     display: none;
 }
-
-label:not(.form-check-label):not(.custom-file-label) {
-    font-weight: 400;
+.mailbox-date{
+    text-align:right;
+    margin-right: 125px;
+}
+.r-tool a{
+    color:#212529;
 }
 
+label:not(.form-check-label):not(.custom-file-label){
+    font-weight: 400;
+}
+.bootstrap-table .fixed-table-container .fixed-table-body .fixed-table-loading .loading-wrap .loading-text {
+    font-size: 1rem;
+}
 .q-card-footer {
     padding: .75rem 1.25rem;
     background-color: rgba(0, 0, 0, .03);
